@@ -1,69 +1,52 @@
-# Welcome to your Lovable project
+🧠 NLP Research Studio
+🔍 Project Overview
+NLP Research Studio is a powerful, web-based Natural Language Processing (NLP) platform designed for students, researchers, and developers. It allows users to perform a variety of NLP tasks including text preprocessing, sentiment analysis, language detection, spam filtering, audio-to-text conversion, and intelligent chatbot interaction.
 
-## Project info
+🎯 Key Features
+Text Input Processing
+Clean, analyze, and transform text with:
 
-**URL**: https://lovable.dev/projects/77c62c78-bfdd-41e6-8a8b-c363d6b04300
+Tokenization
 
-## How can I edit this code?
+Lemmatization
 
-There are several ways of editing your application.
+Stopword Removal
 
-**Use Lovable**
+Stemming
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/77c62c78-bfdd-41e6-8a8b-c363d6b04300) and start prompting.
+Grammar & Typo Fixing
 
-Changes made via Lovable will be committed automatically to this repo.
+Text Paraphrasing
 
-**Use your preferred IDE**
+Sentiment Analysis & Chatbot
+Detect emotions in user input and interact using an AI chatbot that adapts based on detected sentiment.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Language Detection & Spam Filtering
+Automatically detect the language of the input and analyze for potential spam or abusive content.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Audio-to-Text Conversion
+Upload audio files to convert speech to text using AI-powered models, then apply all NLP features.
 
-Follow these steps:
+Modern UI/UX
+Built with React.js, TypeScript, and ShadCN, the UI is designed for speed, clarity, and accessibility.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Backend with Python & Flask
+Handles NLP tasks using powerful Python libraries such as spaCy, NLTK, and custom AI integrations.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧰 Tech Stack
+Frontend: React.js, TypeScript, HTML, CSS, ShadCN UI, Vite
 
-# Step 3: Install the necessary dependencies.
-npm i
+Backend: Python, Flask, spaCy, NLTK
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Tools: VS Code, GitHub, Postman
 
-**Edit a file directly in GitHub**
+APIs/Integrations: Lovable AI (for paraphrasing & chatbot), custom NLP logic
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🚀 How It Works
+User enters or uploads text/audio.
 
-**Use GitHub Codespaces**
+Backend processes input using Python NLP libraries.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Results are returned and displayed on a sleek, interactive frontend.
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/77c62c78-bfdd-41e6-8a8b-c363d6b04300) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Optional: Chatbot responds with emotionally aware replies.
